@@ -53,7 +53,7 @@ with col2:
     st.info("The app is using the default latitude and longitude of your selected city")
     latitude, longitude = get_lat_and_long(city)
     city_pop = int(city_details[city])
-    st.write(f"For your selected city, the corresponding lat and long are {latitude} and {longitude} respectively. Having a population of {city_pop}")
+    st.success(f"For your selected city, the corresponding lat and long are {latitude} and {longitude} respectively. Having a population of {city_pop}")
 
 with col3:
     st.title("More details")
